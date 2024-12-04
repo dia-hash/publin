@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  font-family: Raleway, Regular;
+  background-color: #d4f1e6;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 250px;
   height: auto;
 }
 
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffd700; /* Sárga szín */
+  color: #ffd700;
 }
 
 main {
@@ -50,21 +50,19 @@ main {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  min-height: calc(
-    100vh - 200px
-  ); /* Fejléc és tartalom helyigényének levonása */
+  min-height: calc(100vh - 200px);
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 940px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .content p {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
-  color: #333;
+  color: #002d26;
 }
 
 .image-container {
